@@ -64,8 +64,11 @@ A food delivery app has many processes, here we consider only **"Food Order Book
 ### Data Modeling
 Data Modeling is a way of taking business requirements and information and structuring, organizing that information in the form of tables, so that it can be queried to find out answers to several business questions.
 It involves three stages:
+
                         1. Conceptual: Highly abstract, identify the business process and ask clarifying questions.
+                        
                         2. Logical - Identify Entities and attributes
+                        
                         3. Physical - Identify tables and Columns associated 
 
 ### Conceptual Modeling: Entities associated with the Process: "Food Order Booking and Receiving Flow"
