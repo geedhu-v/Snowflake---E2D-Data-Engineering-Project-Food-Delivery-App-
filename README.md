@@ -74,6 +74,7 @@ It involves three stages:
 ### Conceptual Modeling: Entities associated with the Process: "Food Order Booking and Receiving Flow"
 <img width="455" alt="image" src="https://github.com/user-attachments/assets/e6eca2e7-ae0c-4590-a655-c09997ed451e" />
 
+### Note: Swiggy utilizes PostgreSQL for OLTP and Snowflake for OLAP, as highlighted in their technical blog post.
 
 
 
