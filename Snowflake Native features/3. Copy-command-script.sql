@@ -1,6 +1,3 @@
--- Data Engineering Simplified YouTube Channel
--- https://www.youtube.com/c/DataEngineeringSimplified
-
 -- use sysadmin role.
 use role sysadmin;
 
