@@ -1,14 +1,3 @@
-
--- Data Engineering Simplified YouTube Channel
--- https://www.youtube.com/c/DataEngineeringSimplified
-
--- Snowflake Stream & Change Data Capture (Snowflake Hands-on Tutorial)https://youtu.be/DXI0GDSwE_E
--- Snowflake Unique Features (Snowflake Hands-on Tutorial) https://youtu.be/-MZrCpoAUs0
--- Snowflake Must Know New Objects (Snowflake Hands-on Tutorial)  https://youtu.be/S5NwU2o2Exg
-
-
-
--- change context
 use role sysadmin;          -- use sysadmin role
 use schema demo_db.public;  -- use default public schema
 use warehouse compute_wh;   -- use compute warehouse
