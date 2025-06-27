@@ -26,7 +26,7 @@ insert into customer_02
     (2671,'Customer#000002671','r7PFEEl8sFMl','GERMANY','17-527-728-3381',3981.92,'MACHINERY'),
     (2699,'Customer#000002699','GWZ023qBegxZ','GERMANY','17-131-640-7765',3193.80,'AUTOMOBILE');
 
--- run select query on my customer table and check teh columns and column value
+-- run select query on my customer table and check the columns and column value
 select *from customer_02;
 
 -- lets create a stream object 
