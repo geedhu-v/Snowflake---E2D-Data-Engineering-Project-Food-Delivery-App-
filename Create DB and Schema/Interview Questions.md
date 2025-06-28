@@ -36,3 +36,5 @@ It makes dependencies explicit. You’re not wondering which layer defines what.
 Yes—a transient database is a smart choice for dev environments in Snowflake because it doesn’t retain fail-safe data, making it more cost-efficient. Since development work is usually temporary or iterative, you typically don’t need long-term recovery features like fail-safe. It’s ideal for quick testing, prototyping, and ETL experimentation without bloating storage costs.
 Just don’t forget to back up anything worth keeping—transient really means transient!
 
+### Copy command is highly efficient as Snowflake automatically maintains metadata, history for all data loads.
+
