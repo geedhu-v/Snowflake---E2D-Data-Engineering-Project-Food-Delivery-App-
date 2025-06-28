@@ -1,13 +1,3 @@
--- Data Engineering Simplified YouTube Channel
--- https://www.youtube.com/c/DataEngineeringSimplified
-
--- Snowflake Tasks & Task Tree (Snowflake Hands-on Tutorial)  https://youtu.be/165hXZ_o4Vk
--- CDC & Delta Processing In Snowflake (Snowflake Hands-on Tutorial) https://youtu.be/eJ7QCrDZDJo
--- How to work with external table in Snowflake  (Snowflake Hands-on Tutorial) https://youtu.be/w9BQsOlJc5s
--- Snowflake Unique Features (Snowflake Hands-on Tutorial) https://youtu.be/-MZrCpoAUs0
--- Snowflake Must Know New Objects (Snowflake Hands-on Tutorial)  https://youtu.be/S5NwU2o2Exg
-
-
 -- change context
 use role sysadmin;          -- use sysadmin role
 use schema demo_db.public;  -- use default public schema
