@@ -38,3 +38,9 @@ Just don’t forget to back up anything worth keeping—transient really means t
 
 ### Copy command is highly efficient as Snowflake automatically maintains metadata, history for all data loads.
 
+<img width="815" alt="image" src="https://github.com/user-attachments/assets/45922b2c-3241-4599-9e29-702cb3ec0380" />
+<img width="775" alt="image" src="https://github.com/user-attachments/assets/e618dbf5-5974-48f2-8460-0ff60736958e" />
+
+
+
+
