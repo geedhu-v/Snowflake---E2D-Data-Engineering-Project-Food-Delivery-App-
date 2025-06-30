@@ -58,7 +58,7 @@ create or replace masking policy
 create or replace masking policy 
     common.email_masking_policy as (email_text string)
     returns string -> 
-    to_varchar('** EAMIL **');
+    to_varchar('** EMAIL **');
 
 create or replace masking policy 
     common.phone_masking_policy as (phone string)
