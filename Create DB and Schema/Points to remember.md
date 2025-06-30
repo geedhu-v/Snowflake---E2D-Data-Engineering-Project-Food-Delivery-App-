@@ -9,13 +9,14 @@
 
 ## 🔍 Primary Key vs Surrogate Key
 
-| Feature | Primary Key | Surrogate Key | 
-| Definition | Uniquely identifies a row using real data | System-generated unique identifier | 
-| Business Meaning | Yes (e.g., email, SSN) | No (e.g., ID = 101, 102...) | 
-| Changeable | Might change if business data changes | Never changes once assigned | 
-| Readability | Human-readable | Not meaningful to users | 
-| Performance | Can be slower if large or composite | Typically faster due to simplicity | 
-| Example | email = "geedhu@example.com" | user_id = 1001 | 
+| Feature           | Primary Key                                 | Surrogate Key                          |
+|------------------|----------------------------------------------|----------------------------------------|
+| Definition        | Uniquely identifies a row using real data    | System-generated unique identifier     |
+| Business Meaning  | Yes (e.g., email, SSN)                       | No (e.g., ID = 101, 102...)            |
+| Changeable        | Might change if business data changes        | Never changes once assigned            |
+| Readability       | Human-readable                               | Not meaningful to users                |
+| Performance       | Can be slower if large or composite          | Typically faster due to simplicity     |
+| Example           | email = "geedhu@example.com"                | user_id = 1001                         |
 
 
 In short, every table needs a primary key, but a surrogate key can be used as the primary key when natural data isn’t reliable or stable enough.
