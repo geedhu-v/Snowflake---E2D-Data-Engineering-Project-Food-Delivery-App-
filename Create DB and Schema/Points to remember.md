@@ -40,7 +40,20 @@ Step 3: Now run the stream table, as it was created with "append-only" mode, it 
 
 <img width="914" alt="image" src="https://github.com/user-attachments/assets/8187284d-39bd-4ec9-835a-5a9b602e837b" />
 
+While orchestrating an end-to-end pipeline, we should ensure that the merge statement never fails, using either of the two ways:
+    1. In the stage schema, instead of having text, have the appropriate data type.
+    2. While executing mer_statement, Use on error = "continue" instead of "abort_statement"
 
+Modification needed to run the Copy Command that skips the bad records and does not corrupt Table Data.
+
+Before making changes:
+<img width="917" alt="image" src="https://github.com/user-attachments/assets/0cb8deeb-9c22-4281-af66-630dfe8c0050" />
+
+After making changes while loading the corrupted data:
+<img width="454" alt="image" src="https://github.com/user-attachments/assets/1c3b922b-1323-4b62-a7e8-11af9da7510e" />
+
+
+    
 
 
 
