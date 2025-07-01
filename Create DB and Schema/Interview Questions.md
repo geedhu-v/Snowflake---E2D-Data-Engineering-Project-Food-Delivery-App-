@@ -43,7 +43,8 @@ Just don’t forget to back up anything worth keeping—transient really means t
 
 ### Next set of Questions
 <img width="891" alt="image" src="https://github.com/user-attachments/assets/a1e752fa-3241-4eb4-a758-b218fe5c3f7a" />
-<img width="940" alt="image" src="https://github.com/user-attachments/assets/11cf9ff1-e8d0-461b-b2a1-232f6930b30f" />
+<img width="929" alt="image" src="https://github.com/user-attachments/assets/bc85f1cc-b1c0-4e6c-9d76-6978c98ead17" />
+
 
 
 
