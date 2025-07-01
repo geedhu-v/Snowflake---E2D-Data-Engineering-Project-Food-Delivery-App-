@@ -46,6 +46,12 @@ Just don’t forget to back up anything worth keeping—transient really means t
 <img width="929" alt="image" src="https://github.com/user-attachments/assets/bc85f1cc-b1c0-4e6c-9d76-6978c98ead17" />
 
 
+In support to Question 2: 
+
+<img width="743" alt="image" src="https://github.com/user-attachments/assets/82d796aa-f1dc-4dc2-96fc-86a2a361cec5" />
+
+
+
 
 
 
