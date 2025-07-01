@@ -20,3 +20,6 @@
 
 
 In short, every table needs a primary key, but a surrogate key can be used as the primary key when natural data isn’t reliable or stable enough.
+
+## What will happen if the data from the stream object is not consumed using a merge statement or stored procedure
+It will keep the bad records, and the merge statement will keep failing
