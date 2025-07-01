@@ -22,4 +22,25 @@
 In short, every table needs a primary key, but a surrogate key can be used as the primary key when natural data isn’t reliable or stable enough.
 
 ## What will happen if the data from the stream object is not consumed using a merge statement or stored procedure
-It will keep the bad records, and the merge statement will keep failing
+It will keep the bad records, and the merge statement will keep failing.
+
+Solution: 
+
+Step 1: To get rid of the bad record,  create a temporary table from the stream object as shown below:
+
+<img width="263" alt="image" src="https://github.com/user-attachments/assets/f181e2fe-dd91-4402-9246-b4a8e8245e5e" />
+
+Step 2: Delete the data from the stage_sch.location table
+
+<img width="382" alt="image" src="https://github.com/user-attachments/assets/b6e9fa6b-0e11-498a-ae33-76c3dbab575e" />
+
+Step 3: Now run the stream table, as it was created with "append-only" mode, it will not contain the deleted data history.
+
+<img width="241" alt="image" src="https://github.com/user-attachments/assets/b1598021-cd72-4e8f-842b-12bac64b2bdd" />
+
+<img width="914" alt="image" src="https://github.com/user-attachments/assets/8187284d-39bd-4ec9-835a-5a9b602e837b" />
+
+
+
+
+
