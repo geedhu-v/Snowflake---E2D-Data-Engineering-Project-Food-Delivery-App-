@@ -196,7 +196,8 @@ USING (
     FROM stage_sch.location_stm
 ) AS source
 ON target.Location_ID = source.Location_ID
-WHEN MATCHED AND (
+    --This is to identify if any chnages has happened to existing file
+WHEN MATCHED AND ( 
     target.City != source.City OR
     target.State != source.State OR
     target.state_code != source.state_code OR
