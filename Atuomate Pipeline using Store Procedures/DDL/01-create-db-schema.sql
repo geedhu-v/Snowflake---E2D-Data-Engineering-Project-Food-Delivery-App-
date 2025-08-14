@@ -2,7 +2,7 @@
 use role sysadmin;
 use warehouse adhoc_wh;
 
--- create development sandbox database/schema if does not exist
+-- create development sandbox database/schema if it does not exist.
 create database if not exists sp_pipeline_db;
 use database sp_pipeline_db;
 
